@@ -23,7 +23,7 @@ This phase **should be reviewed by the codeowner or the team members** who have 
 Coding conventions should be followed in each phase. The author needs to be very careful about that.
 
 In InterviewBit, we follow [Ruby Coding Conventions](https://github.com/KingsGambitLab/styleguide/blob/master/ruby_coding_conventions.md) for our **Backend**.
-For **Frontend**, all rules and conventions for frontend can be found on `/docs` when running the server locally. More information for frontend conventions might be found here: [Frontend Coding Conventions](https://github.com/KingsGambitLab/styleguide/frontend_coding_conventions.rb).
+For **Frontend**, all rules and conventions for frontend can be found on `/docs` when running the server locally. More information for frontend conventions might be found here: [Frontend Coding Conventions](https://github.com/KingsGambitLab/styleguide/blob/master/frontend_coding_conventions.md).
 
 
 ### Example: A Todo app based on React
