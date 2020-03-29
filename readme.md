@@ -7,5 +7,5 @@ Every major project has its own style guide: a set of conventions (sometimes arb
 This project currently holds only one guide which is
 
 * [A Guideline to open an effective Pull Request](https://github.com/KingsGambitLab/styleguide/blob/master/pull_request_guideline.md)
-* Ruby Coding Conventions
+* [Ruby Coding Conventions](https://github.com/KingsGambitLab/styleguide/blob/master/ruby_coding_conventions.md)
 * Frontend Coding Conventions
