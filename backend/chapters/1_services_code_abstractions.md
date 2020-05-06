@@ -12,9 +12,11 @@
 
 ### "A specific business action that does one thing. That’s our goal with service objects."
 
+<img width="708" alt="Screenshot 2020-05-06 at 7 45 46 PM" src="https://user-images.githubusercontent.com/6236175/81188057-7c53eb00-8fd2-11ea-839c-dc6bec8ef44c.png">
+
+
 ---
 Please read through the following Q&A carefullty to understand services & code abstractions,
-
 ### A. Should a method be added in model?
 
 Add the method in a model if the functionality belongs to an object or class instance of this model
