@@ -21,9 +21,9 @@ Add the method in a model if the functionality belongs to an object or class ins
 
 _*Acceptable Example*_
 
-If `User` is a class then methods like  `user.is_mentee?`/`user.is_experienced?`(instance method) and `User.get_experienced_users`(class method) are acceptable
+If `User` is a class then methods like  `user.is_mentee?`/`user.is_experienced?`(instance method) and `User.create_new_user(params)`/`User.get_experienced_users(grad_year_threshold)`(class method) are acceptable
 
-Explanation: `User.get_experienced_users` is property that belongs to the class and NOT an object, so it belongs to a class rather an instance
+Explanation: `User.get_experienced_users`/`User.create_new_user` are functionalities that belong to the `User` class and NOT a user object, so these methods are define on class rather on an instance.
 
 **NOTE:** In the above give example, we tend to write these conditions(grad_year ones for `is_experience?`) in controllers/views/anywhere necessary. It is better to abstract the funtionality so that if the conditions change in future then they only have to modified in one place. This also increases readability and decreases bugs
 
